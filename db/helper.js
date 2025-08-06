@@ -90,8 +90,14 @@ function getAllWelcomeMessages(callback) {
 
 module.exports = {
   banUser,
+  unbanUser,
   isUserBanned,
   addRule,
+  deleteRule,
   getRules,
   findRuleByKeyword,
+  addWelcomeMessage,
+  deleteWelcomeMessage,
+  getRandomWelcomeMessage,
+  getAllWelcomeMessages,
 };
