@@ -18,3 +18,12 @@ You can do ``+regexfilter REGEX_HERE`` to switch to a different regex.
 
 
 The current regex ``/^(?=.{6,256}$)[a-zA-Z_.-]+$/`` filter's usernames with numbers in their username, and usernames that are below 6 letters.
+
+# How to setup?
+Clone this repository, then install the required packages via ``yarn``.    
+Then edit the .env file with your: 
+- your's discord token
+- the allowed channel ID where the selfbot will only work in
+- the allowed guild ID where the selfbot will only work in
+- the yggdrasil's bot ID
+Finally, run the main.js script via ``node``.
