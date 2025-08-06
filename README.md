@@ -26,4 +26,5 @@ Then edit the .env file with your:
 - the allowed channel ID where the selfbot will only work in
 - the allowed guild ID where the selfbot will only work in
 - the yggdrasil's bot ID
+
 Finally, run the main.js script via ``node``.
